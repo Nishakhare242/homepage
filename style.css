@@ -8,6 +8,42 @@ a{
     text-decoration: none;
 }
 
+.weather{
+    height:3rem;
+    width: 10rem;
+    background-color: transparent;
+    float: right;
+}
+  #temp-icon{
+    width: 30%;
+    background-color: transparent;
+    float: left;
+    padding-left: 5%;
+    margin-right: 5%;
+  }
+   
+#temp img{
+    float: left;
+    background-color: transparent;
+
+}
+
+#temp span{
+    font-weight: bold;
+    background-color: transparent;
+    color:var(--primary-color);
+
+}
+
+#temp p{
+    font-size: 2rem;
+    background-color: transparent;
+    margin-left: 1rem;
+}
+#temp{
+        background-color: transparent;
+ }
+
 #coupon{
     height:300px;
     width:400px;
@@ -68,13 +104,6 @@ a{
     color: #4bffa5;
 }
 
-
-    
-    
-
-
-
-
 .copy-link-box {
     height: 2em;
     display: flex;
@@ -129,7 +158,11 @@ a{
     background: #cccccc;
   }
   
-
+.lightdarkmode{
+    margin-top: 1%;
+    height: 5px;
+    width: 5px;
+}
 .header{
     min-height: 100vh;
     width: 100%;

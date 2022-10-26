@@ -2,9 +2,49 @@
     <head>
         <title>Home page</title>
         <link href="style.css" rel="stylesheet" type="text/css">
-        <script src="https://kit.fontawesome.com/4344f76f22.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/4344f76f22.js"crossorigin="anonymous"></script>
         <script src="home.js"></script>
     </head>
+        
+         <div class="lightdarkmode">  
+        </div>
+        <style>
+          
+        body{
+            background-color:white;
+            color:black;  
+        }
+        .mydark{
+            background-color:black;
+            color:white;    
+        }
+          </style>
+         
+           <script> function changemode(){
+            let mybody = document.body;
+            mybody.classList.toggle('mydark')
+           }
+           </script>
+
+          <body class="mydark"> 
+       <button onclick="changemode()">changemode</button>
+           
+ <div class="weather"> 
+    <div id="temp">
+        <img id="temp-icon" src="./icons/sun.svg" alt="">
+        <p> <span id="temp-Value">----</span> <span id="temp-unit">&#176c</span></p>
+    </div>
+ </div>
+  
+
+   
+
+
+
+
+
+
+    
     <div>
         <body class="">
     <div class="coupon-page">
@@ -30,9 +70,11 @@
         </div>
     </div>
       </div>  
-        
+      
+      
 
      <div class="header">
+        
             <nav id="navBar">
                 <img src="images/logo.png" class="logo">
                 <ul class="nav-links">
@@ -215,8 +257,6 @@ function togglebtn(){
     navBar.classList.toggle("hidemenu");
 }
 </script>
-
-
-
-       </body> 
+</body>
+  </div>
 </html>
